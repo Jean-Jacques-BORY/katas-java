@@ -1,10 +1,11 @@
 package test;
 
-import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 import kata.ToBinary;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ToBinaryTest {
    @Test

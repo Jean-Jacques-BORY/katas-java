@@ -1,9 +1,11 @@
 package test;
-import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
 
 import kata.SimpleStringDivision;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class SimpleStringDivisionTests {
    @Test
    public void basicTests1(){     

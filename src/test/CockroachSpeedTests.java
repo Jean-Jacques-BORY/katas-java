@@ -1,12 +1,12 @@
 package test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
 
 import kata.Cockroach;
 import kata.WordValues;
+import org.junit.jupiter.api.Test;
 
 public class CockroachSpeedTests {
    @Test

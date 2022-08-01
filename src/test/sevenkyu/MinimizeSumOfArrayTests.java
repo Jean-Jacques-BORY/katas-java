@@ -1,10 +1,10 @@
 package test.sevenkyu;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
 import kata.sevenkyu.MinimizeSumOfArray;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MinimizeSumOfArrayTests {
    @Test

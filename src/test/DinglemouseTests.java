@@ -1,10 +1,11 @@
 package test;
 
-import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
 
 import kata.Dinglemouse;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DinglemouseTests {
    @Test

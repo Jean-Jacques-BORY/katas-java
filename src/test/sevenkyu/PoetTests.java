@@ -1,6 +1,5 @@
 package test.sevenkyu;
-
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Arrays;
 
@@ -73,6 +72,6 @@ public class PoetTests {
    private static void doTest(final int[] values, final int[] expected) {
        final int[] actual = Poet.pendulum(values);
        String msg = String.format("Expected %s\nReceived %s\n", Arrays.toString(expected), Arrays.toString(actual));
-       assertArrayEquals(msg, expected, actual);
+       assertArrayEquals(expected, actual);
    }
 }

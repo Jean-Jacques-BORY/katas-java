@@ -10,10 +10,10 @@ public class Automorphic {
           .endsWith(String.valueOf(number)) ? "Automorphic" : "Not!!";
        */
       
-      String strFinal = String.valueOf((int)Math.pow(Double.valueOf(number), 2));
+      String strFinal = String.valueOf((int)Math.pow((double) number, 2));
       int lengthBegin =strFinal.length() - String.valueOf(number).length();
       int resFinal = Integer
-         .valueOf(strFinal
+         .parseInt(strFinal
          .substring(lengthBegin,strFinal.length()));
       
        return resFinal == number ? "Automorphic" : "Not!!";

@@ -1,7 +1,5 @@
 package test;
-
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +20,7 @@ public class BonusesTests {
           for (int i = 0; i < actual.length; i++)
               t += actual[i];
           System.out.println("The sum of your result is not 's': you got " + t + " instead of " + s);
-          assertEquals("The sum of your resulting array is not 'total bonus'", v, true);
+          assertTrue(v, "The sum of your resulting array is not 'total bonus'");
       }      
       else {assertArrayEquals(expect, actual);}
   }

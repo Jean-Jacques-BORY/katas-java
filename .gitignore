@@ -2,3 +2,9 @@
 .project
 .classpath
 bin/
+/.idea/.gitignore
+/.idea/compiler.xml
+/katas-java.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml

@@ -1,15 +1,16 @@
 package test.sevenkyu;
 
-import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 import kata.sevenkyu.MaxProduct;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class MaxProductTests {
    MaxProduct m = new MaxProduct();
    private void test(String message, int expected, int actual) {
-     assertEquals(message, expected, actual);
+     assertEquals(expected, actual,message);
    }
    
    @Test

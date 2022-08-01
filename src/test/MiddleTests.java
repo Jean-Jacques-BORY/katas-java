@@ -1,10 +1,11 @@
 package test;
 
-import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 import kata.Middle;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MiddleTests {
    @Test

@@ -1,10 +1,8 @@
 package test;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import kata.ArrayElementParity;
+import org.junit.jupiter.api.Test;
 
 public class ArrayElementParityTests {
 

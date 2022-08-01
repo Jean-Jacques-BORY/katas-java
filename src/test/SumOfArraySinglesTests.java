@@ -1,10 +1,11 @@
 package test;
 
-import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 import kata.SumOfArraySingles;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SumOfArraySinglesTests {
    

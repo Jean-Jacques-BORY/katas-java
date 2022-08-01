@@ -1,10 +1,11 @@
 package test;
 
-import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 import kata.SplitInParts;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SplitInPartsTests {
    private static void testing(String actual, String expected) {
